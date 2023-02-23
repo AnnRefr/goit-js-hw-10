@@ -1,3 +1,5 @@
+export { fetchCountries };
+
 const BASE_URL = 'https://restcountries.com/v3.1/name';
 
 const fetchCountries = name => {
@@ -11,4 +13,3 @@ const fetchCountries = name => {
   );
 };
 
-export { fetchCountries };
